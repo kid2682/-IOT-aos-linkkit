@@ -1,11 +1,10 @@
 #ifdef __cplusplus
-        extern "C"
-{
+extern "C"{
 #endif
 
 #include <stdint.h>
 #include <string.h>
-#include "iot_imoprt_awss.h"
+#include "iot_import_awss.h"
 
 /**
  * @brief   获取Wi-Fi的接受信号强度(`RSSI`)
@@ -373,11 +372,6 @@ int HAL_Awss_Get_Encrypt_Type()
 int HAL_Awss_Get_Conn_Encrypt_Type()
 {
     return 4;
-}
-
-void HAL_Sys_reboot(void)
-{
-    aos_reboot();
 }
 
 #ifdef __cplusplus
