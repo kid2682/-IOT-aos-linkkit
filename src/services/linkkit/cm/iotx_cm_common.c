@@ -940,7 +940,7 @@ int iotx_cm_send_data(iotx_cm_conntext_t *cm_ctx, void *_connectivity, iotx_cm_s
     return ret;
 }
 
-#if
+#if 0
 int __attribute__((weak)) awss_report_cloud()
 {
     return 0;

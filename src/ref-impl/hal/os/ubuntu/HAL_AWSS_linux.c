@@ -62,17 +62,6 @@ char *HAL_Wifi_Get_Mac(_OU_ char mac_str[HAL_MAC_LEN])
 extern void wifi_get_ip(char ips[16]);
 
 #define HAL_IP_LEN (15 + 1)
-/**
- * @brief   获取Wi-Fi网口的IP地址, 点分十进制格式保存在字符串数组出参, 二进制格式则作为返回值, 并以网络字节序(大端)表达
- *
- * @param   ifname : 指定Wi-Fi网络接口的名字
- * @param   ip_str : 存放点分十进制格式的IP地址字符串的数组
- * @return  二进制形式的IP地址, 以网络字节序(大端)组织
- */
-uint32_t HAL_Wifi_Get_IP(_OU_ char ip_str[HAL_IP_LEN], _IN_ const char *ifname)
-{
-    return 0;
-}
 
 /**
  * @brief   获取Wi-Fi模块上的操作系统版本字符串
