@@ -17,6 +17,7 @@
           
           `#define MBEDTLS_ERR_SSL_PEER_CLOSE_NOTIFY                 -0x7880  /**< The peer notified us that the connection is going to be closed. */`
         * mqtt错误
+        
           ![avatar](./res/log3.png)
           iot_export_errno.h（路径肯能随着版本的不同儿不同，可能搜索'MQTT_CONNACK_BAD_USERDATA_ERROR'能快速定位到文件）中可以查到图中的错误码。
         * 请求错误
