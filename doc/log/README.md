@@ -1,4 +1,5 @@
 # 日志排查
+ - 通过下面的日志定位，找到错误点之后，可以到[常见问题](https://github.com/kid2682/IOT-aos-linkkit/tree/master/doc/error)中找到对应解决方案。如果找不到或者找到了无法解决，可以去阿里云提工单。
  - 定位错误信息
     * 大部错误日志都会有个err开头的前缀，如图。 
     ![avatar](./res/log1.png)
