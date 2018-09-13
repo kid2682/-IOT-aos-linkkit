@@ -4,3 +4,5 @@
     
  - [错误日志排查](https://github.com/kid2682/IOT-aos-linkkit/tree/master/doc/log)
  - [常见问题](https://github.com/kid2682/IOT-aos-linkkit/tree/master/doc/error)
+ - [已知BUG](https://github.com/kid2682/IOT-aos-linkkit/tree/master/doc/bug)
+ - [未公开函数](https://github.com/kid2682/IOT-aos-linkkit/tree/master/doc/otherFN)

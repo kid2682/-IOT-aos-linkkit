@@ -50,3 +50,12 @@
         * aos 1.3.3/linkkit2.2.0 开始是修改config.rhino.make文件中的CONFIG_MQTT_TX_MAXLEN和CONFIG_MQTT_RX_MAXLEN。rhino是当前系统的文件。sdk可以找自己
         * aos 1.3.3/linkkit2.2.0 之前的。修改iotx_cloud_conn_mqtt.c 中的 MQTT_MSGLEN宏
         * 多出现于抓去云端tsl
+        
+ - 其他err
+    * Invalid Parameter 
+        * 上报时参数名写错。
+        * 云端抓取tsl（aos 1.3.3)解析错误。使用本地tsl
+    * ret_code = 6289 (!=200)
+        * 多出现于动态注册（一型一密）。
+        * 设备已经注册过了。云端后台，删除这个设备。
+        
