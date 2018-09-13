@@ -9,7 +9,7 @@
     * alios-things和linkkit都是开源的，能力强点的同学可以自己调试代码，找到问题所在（bug或者代码逻辑的问题）。
     
  - 错误分类
-    * 连接错误 大多都伴随着"ssl_disconnect",在这个日志前后基本能找到错误信息
+    * 连接错误 --大多都伴随着"ssl_disconnect",在这个日志前后基本能找到错误信息
         * ssl错误
           ![avatar](./res/log2.png)
           code是错误码，ssl通用的。这里看到的是-30848，然后用计算器转换成16进制可以得到-0x7880。可以在源码或者网络上查到对应的错误信息。
@@ -19,7 +19,7 @@
         * mqtt错误
         
           ![avatar](./res/log3.png)
-          iot_export_errno.h（路径肯能随着版本的不同儿不同，可能搜索'MQTT_CONNACK_BAD_USERDATA_ERROR'能快速定位到文件）中可以查到图中的错误码。
+          iot_export_errno.h（路径肯能随着版本的不同而不同，可能搜索'MQTT_CONNACK_BAD_USERDATA_ERROR'能快速定位到文件）中可以查到图中的错误码。
         * 请求错误
           ![avatar](./res/log4.png)
           图中的code就是错误代码。

@@ -3,3 +3,4 @@
     * [WIFI HAL层函数文档](https://code.aliyun.com/edward.yangx/public-docs/wikis/user-guide/linkkit/Required_APIs?accounttraceid=f1f76b5f-da36-440c-a3f0-e5a47349db9e#WIFI%E9%85%8D%E7%BD%91%E5%8A%9F%E8%83%BD%E7%9B%B8%E5%85%B3)
     
  - [错误日志排查](https://github.com/kid2682/IOT-aos-linkkit/tree/doc/log)
+ - [常见问题](https://github.com/kid2682/IOT-aos-linkkit/tree/doc/error)
